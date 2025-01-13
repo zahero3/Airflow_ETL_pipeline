@@ -12,7 +12,7 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline built using
 	    •	Converts date columns to a standard datetime format.
 	    •	Replaces substrings in specific columns.
 	    •	Handles missing values for integer columns.
-	3.	Data Loading: Dynamically creates a new table in the database and loads the transformed data into 		it.
+	3.	Data Loading: Dynamically creates a new table in the database and loads the transformed data into it.
 	4.	Automation: Scheduled to run every 10 seconds using Apache Airflow.
 	5.	Logs and Debugging: All process logs can be accessed via the Airflow webserver.
 
@@ -31,11 +31,11 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline built using
  **Logs and Debugging**
 	
  	•	Logs: The ETL pipeline’s logs are available on the Airflow webserver.
-	•	Print Statements: Output from print() commands in the code will appear in the Airflow logs for 			the respective task.
+	•	Print Statements: Output from print() commands in the code will appear in the Airflow logs for the respective task.
 
 **Important Notes**
 	
- 	•	The transformed data is saved as a CSV file (Transformed_data.csv) in the working directory 			during the process.
+ 	•	The transformed data is saved as a CSV file (Transformed_data.csv) in the working directory during the process.
 	•	Ensure the PostgreSQL database is accessible and the credentials in the script are correct.
 
  **Future Enhancements**
